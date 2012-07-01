@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <Spinner
+		android:id="@+id/spinner"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"/>
+    <item android:id="@+id/menuCapture"
+          android:title="@string/capture"
+          android:showAsAction="ifRoom|withText" />
+    <item android:id="@+id/menuOpen"
+          android:title="@string/open"
+          android:showAsAction="ifRoom|withText" />
+    <item android:id="@+id/menuNew"
+          android:title="@string/new_item"
+          android:showAsAction="ifRoom|withText" />
+    <item android:id="@+id/menuSettings"
+          android:title="@string/settings"
+          android:showAsAction="ifRoom|withText" />
+    <item android:id="@+id/menuRefresh"
+          android:title="@string/refresh"
+          android:showAsAction="ifRoom|withText" />
+    <item android:id="@+id/menuDeleteFolder"
+          android:title="@string/delete_folder"
+          android:showAsAction="ifRoom|withText" />
+</menu>

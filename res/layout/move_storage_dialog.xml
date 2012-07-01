@@ -1,0 +1,110 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+              android:orientation="vertical"
+        android:layout_height="fill_parent" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+              android:orientation="vertical"
+              android:paddingLeft="20dip"
+              android:paddingRight="20dip"
+        android:layout_height="wrap_content" >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:text="@string/move_storage_warning"
+    />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:text="@string/new_location"
+    />
+    <Spinner 
+        android:id="@+id/locationSpinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+    />
+<LinearLayout  
+    xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="fill_parent"  
+    android:layout_height="wrap_content"  
+    android:orientation="horizontal"  
+    >  
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:text="@string/copy_existing_data"
+    />
+    
+<LinearLayout  
+    xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="fill_parent"  
+    android:layout_height="wrap_content"  
+    android:orientation="horizontal"  
+    android:gravity="center_vertical|right"
+    >  
+    <CheckBox
+        android:id="@+id/copyCheck"
+    android:layout_gravity="center_vertical|right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    </LinearLayout>
+<LinearLayout  
+    xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="fill_parent"  
+    android:layout_height="wrap_content"  
+    android:orientation="horizontal"  
+    >  
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:text="@string/delete_old_files"
+    />
+    
+<LinearLayout  
+    xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="fill_parent"  
+    android:layout_height="wrap_content"  
+    android:orientation="horizontal"  
+    android:gravity="center_vertical|right"
+    >  
+    <CheckBox
+        android:id="@+id/deleteCheck"
+    android:layout_gravity="center_vertical|right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+              android:orientation="horizontal"
+        
+        android:layout_height="wrap_content" >
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/dialog_button_left"
+        android:textAppearance="?android:attr/textAppearanceSmall"  
+            android:text="@string/cancel" />
+
+        <Button
+            android:id="@+id/btnExport"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/dialog_button_right"
+        android:textAppearance="?android:attr/textAppearanceSmall"  
+            android:text="@string/move" />
+
+    </LinearLayout>
+    </LinearLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="#ffffffff">
+	
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+			android:id="@+id/toolbar"
+		android:orientation="horizontal">
+		
+		<ImageButton
+
+			android:id="@+id/upBtn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/up_button" android:contentDescription="Up Button"/>
+		<ImageButton
+
+			android:id="@+id/spaceBtn"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:background="@drawable/space" android:contentDescription="Space"/>
+		<ImageButton
+
+			android:id="@+id/settingBtn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/pen_button" android:contentDescription="Pen Button"/>
+
+		<ImageButton
+
+		    android:id="@+id/eraseBtn"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+			android:background="@drawable/erase_button" android:contentDescription="Erase Button"/>
+		<ImageButton
+
+		    android:id="@+id/imageBtn"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+			android:background="@drawable/image_button" android:contentDescription="Image Button"/>
+		<ImageButton
+
+		    android:id="@+id/textBtn"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+			android:background="@drawable/text_button" android:contentDescription="Text Button"/>
+
+		<ImageButton
+
+			android:id="@+id/undoBtn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/undo_button" android:contentDescription="Undo Button"/>
+		
+		<ImageButton
+
+			android:id="@+id/redoBtn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/redo_button" android:contentDescription="Redo Button"/>
+		<ImageButton
+
+			android:id="@+id/saveBtn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/save_button" android:contentDescription="Save Button"/>
+		<ImageButton
+
+			android:id="@+id/shareBtn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/share_button" android:contentDescription="Share Button"/>
+	</LinearLayout>
+	<RelativeLayout 
+		android:id="@+id/canvas_container"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+		 <ImageView
+		    android:id="@+id/canvas_default_background"
+		    android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		    android:src="@drawable/action_bar_shadow"
+			android:scaleType="fitXY"/>
+		<com.samsung.spensdk.SCanvasView 
+			android:id="@+id/canvas_view"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+		
+		<com.samsung.sdraw.SettingView 
+			android:id="@+id/setting_view"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />		
+	</RelativeLayout>
+</LinearLayout>

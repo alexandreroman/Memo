@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menuDeleteSelected"
+        android:title="@string/delete_selected"
+        android:showAsAction="ifRoom|withText"/>
+    <item android:id="@+id/menuDuplicateSelected"
+        android:title="@string/duplicate_selected"
+        android:showAsAction="ifRoom|withText"/>
+    <item android:id="@+id/menuPageBackground"
+        android:title="@string/page_background"
+        android:showAsAction="ifRoom|withText"/>
+    <group android:checkableBehavior="all">
+    	<item android:id="@+id/menuToggleOrientationLock"
+            android:title="@string/toggle_orientation_lock"
+            android:showAsAction="ifRoom|withText"/>
+    </group>
+</menu>

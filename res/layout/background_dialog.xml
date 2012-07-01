@@ -1,0 +1,72 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+              android:orientation="vertical"
+        android:layout_height="fill_parent" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+              android:orientation="vertical"
+              android:paddingLeft="20dip"
+              android:paddingRight="20dip"
+              android:paddingBottom="20dip"
+        android:layout_height="wrap_content" >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:text="@string/background_type"
+    />
+    <Spinner 
+        android:id="@+id/typeSpinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+    />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:text="@string/tile_size"
+    />
+
+    <SeekBar android:max="100"
+        android:id="@+id/seekBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:text="@string/colour"
+    />
+
+<ImageView
+			android:contentDescription="@string/current_colour"
+			android:id="@+id/colourView"
+			android:layout_width="fill_parent"
+			android:layout_height="50dip" android:scaleType="fitXY"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+              android:orientation="horizontal"
+        
+        android:layout_height="wrap_content" >
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/dialog_button_left"
+        android:textAppearance="?android:attr/textAppearanceSmall"  
+            android:text="@string/cancel" />
+
+        <Button
+            android:id="@+id/btnExport"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/dialog_button_right"
+        android:textAppearance="?android:attr/textAppearanceSmall"  
+            android:text="@string/confirm" />
+
+    </LinearLayout>
+    </LinearLayout>

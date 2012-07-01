@@ -1,0 +1,19 @@
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+              android:orientation="vertical"
+         >
+   <WebView
+        android:id="@+id/textView1"
+            android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="fill_parent"
+            android:layout_height="80dip"
+            android:layout_weight="1"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:background="@drawable/dialog_button_right"
+            android:text="@string/dismiss" />
+    </LinearLayout>

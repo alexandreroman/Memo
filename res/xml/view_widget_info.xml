@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider 
+    	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialLayout="@layout/view_widget_layout"
+    android:minHeight="30dp" android:configure="com.ngarside.memo.ViewWidgetConfigureActivity"
+    android:minWidth="30dp"
+    android:updatePeriodMillis="0" android:previewImage="@drawable/view_widget_icon" android:resizeMode="horizontal|vertical">
+
+</appwidget-provider>

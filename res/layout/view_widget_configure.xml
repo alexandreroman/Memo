@@ -1,0 +1,34 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+              android:orientation="vertical"
+        android:layout_height="fill_parent" >
+
+        <GridView xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@+id/gridview"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:columnWidth="120dp"
+    android:numColumns="auto_fit"
+    android:verticalSpacing="10dp"
+    android:horizontalSpacing="10dp"
+    android:stretchMode="columnWidth"
+    android:gravity="center"
+/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+              android:orientation="horizontal"
+        
+        android:layout_height="wrap_content" >
+        <Button
+            android:id="@+id/upButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#F2F2F2"
+        android:textAppearance="?android:attr/textAppearanceSmall"  
+            android:text="Up" />
+
+    </LinearLayout>
+
+    </LinearLayout>
