@@ -277,7 +277,7 @@ public class ListActivity extends Activity {
             	} else {
                 	new AlertDialog.Builder(this)
                     .setIcon(android.R.drawable.ic_dialog_alert)
-                    .setTitle(getString(R.string.delete) + fileFolders[spinnerSelection - 2].getName() + "?")
+                    .setTitle(String.format(getString(R.string.delete_title), fileFolders[spinnerSelection - 2].getName()))
                     .setMessage(getString(R.string.delete_confirm))
                     .setPositiveButton(getString(R.string.delete), new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int which) {
