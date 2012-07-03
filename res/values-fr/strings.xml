@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mémo</string>
+    <string name="folder">Dossier</string>
+    <string name="settings">Paramètres</string>
+    <string name="map">Carte</string>
+    <string name="web">Internet</string>
+    <string name="background_type">Type :</string>
+    <string name="tile_size">Taille d\'un carreau :</string>
+    <string name="colour">Couleur :</string>
+    <string name="cancel">Annuler</string>
+    <string name="confirm">Confirmer</string>
+    <string name="current_colour">Couleur actuelle</string>
+    <string name="dismiss">Fermer</string>
+    <string name="new_location">Nouvel emplacement :</string>
+    <string name="copy_existing_data">Écraser les données</string>
+    <string name="move">Déplacer</string>
+    <string name="delete_old_files">Supprimer les anciens fichiers</string>
+    <string name="move_storage_warning">Zone dangereuse ! La modification du dossier de stockage peut empêcher les autres applications d\'accéder aux mémos.</string>
+    <string name="x">X :</string>
+    <string name="y">Y :</string>
+    <string name="background">Fond de page</string>
+    <string name="refresh">Actualiser</string>
+    <string name="content">Mémo</string>
+    <string name="search">Rechercher</string>
+    <string name="insert">Insérer</string>
+    <string name="capture">Capturer</string>
+    <string name="open">Ouvrir</string>
+    <string name="new_item">Nouveau</string>
+    <string name="delete_folder">Supprimer le dossier</string>
+    <string name="offset_title">Décalage</string>
+    <string name="offset_description">Décalage du dessin à l\'écran</string>
+    <string name="spen_button_title">Bouton S-Pen</string>
+    <string name="spen_button_description">Définir l\'action du bouton</string>
+    <string name="finger_title">Doigt</string>
+    <string name="finger_description">Définir l\'action du doigt</string>
+    <string name="dominant_hand_title">Main principale</string>
+    <string name="dominant_hand_description">Les boutons Retour et Menu sont inversés pendant un dessin si la main principale est Gaucher</string>
+    <string name="disable_back_button_title">Désactiver le bouton Retour</string>
+    <string name="disable_back_button_description">Pendant un dessin</string>
+    <string name="default_background_title">Fond de page par défaut</string>
+    <string name="default_background_description">Définir le fond par défaut pour les nouvelles notes</string>
+    <string name="fullscreen_title">Plein écran</string>
+    <string name="fullscreen_description">Pendant un dessin</string>
+    <string name="prevent_screen_lock_title">Désactiver le verrouillage</string>
+    <string name="prevent_screen_lock_description">Pendant un dessin</string>
+    <string name="orientation_title">Rotation</string>
+    <string name="orientation_description">Empêcher la rotation de l\'écran pendant un dessin</string>
+    <string name="include_background_share_title">Inclure le fond de page</string>
+    <string name="include_background_share_description">Pour les partages avec d\'autres applications</string>
+    <string name="delete_temp_file_title">Supprimer les fichiers temporaires</string>
+    <string name="delete_temp_file_description">Pour augmenter l\'espace disque disponible</string>
+    <string name="delete_temp_on_exit_title">Supprimer les fichiers temporaires</string>
+    <string name="delete_temp_on_exit_description">Lorsque l\'application est fermée</string>
+    <string name="set_storage_location_title">Définir l\'emplacement</string>
+    <string name="set_storage_location_description">Où sont stockés les mémos</string>
+    <string name="auto_save_on_exit_title">Enregistrer automatiquement</string>
+    <string name="auto_save_on_exit_description">Lorsque l\'application est fermée</string>
+    <string name="about_title">À propos</string>
+    <string name="about_description">À propos de Mémo</string>
+    <string name="change_log_title">Nouveautés</string>
+    <string name="change_log_description">Quelles sont les nouveautés de cette version ?</string>
+    <string name="share_title">Partager</string>
+    <string name="share_description">Parler de Mémo à vos amis</string>
+    <string name="rate_title">Donnez votre avis</string>
+    <string name="rate_description">Que pensez-vous de Mémo ?</string>
+    <string name="contribute_title">Participez</string>
+    <string name="contribute_description">Mémo est un logiciel libre</string>
+    <string name="nathan_garside_title">Nathan Garside (développeur)</string>
+    <string name="nathan_garside_description">Ouvrir la page sur XDA Developers</string>
+    <string name="wallec_title">Wallec (conception des icônes)</string>
+    <string name="wallec_description">Ouvrir la page sur Deviant Art</string>
+    <string name="delete_selected">Supprimer la sélection</string>
+    <string name="duplicate_selected">Dupliquer la sélection</string>
+    <string name="page_background">Fond de page</string>
+    <string name="toggle_orientation_lock">Empêcher la rotation</string>
+    <string name="colour_dialog_title">Sélectionner une couleur</string>
+    <string name="at_root_directory">Déjà à la racine</string>
+    <string name="add">Ajouter</string>
+    <string name="add_folder">Ajouter un dossier</string>
+    <string name="empty_folder">Ce dossier est vide</string>
+    <string name="all">Tous</string>
+    <string name="misc">Divers</string>
+    <string name="add_folder_spinner">Ajouter un dossier…</string>
+    <string name="already_exists_title">Le dossier existe déjà.</string>
+    <string name="already_exists_description">Utilisez un autre nom.</string>
+    <string name="invalid_filename_title">Le nom est incorrect.</string>
+    <string name="invalid_filename_description">Le nom du dossier ne doit pas commencer par un point.</string>
+    <string name="cant_delete_title">Le dossier n\'a pas été supprimé.</string>
+    <string name="cant_delete_description">Le dossier racine ne peut pas être supprimé.</string>
+    <string name="delete">Supprimer</string>
+    <string name="delete_title">Supprimer %s ?</string>
+    <string name="delete_confirm">Le dossier sera définitivement supprimé.</string>
+    <string name="move_images_title">Le dossier contient des images.</string>
+    <string name="move_images_description">Déplacer ces images vers le dossier racine ?</string>
+    <string name="edit">Modifier</string>
+    <string name="share">Partager</string>
+    <string name="delete_confirm_title">L\'image sera supprimée.</string>
+    <string name="delete_confirm_description">Confirmer la suppression de l\'image ?</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="share_image_title">Partager l\'image</string>
+    <string name="choose_folder">Sélectionner le dossier</string>
+    <string name="choose_new_location">Nouveau dossier…</string>
+    <string name="custom_offset_title">Décalage</string>
+    <string-array name="spen_button_array">
+        <item >Rien</item>
+        <item >Stylo</item>
+        <item >Gomme</item>
+    </string-array>
+    <string name="choose_action_title">Sélectionner une action</string>
+    <string-array name="finger_array">
+        <item >Rien</item>
+        <item >Outil courant</item>
+        <item >Stylo</item>
+        <item >Gomme</item>
+    </string-array>
+    <string name="set_dominant_hand_title">Définir la main principale</string>
+    <string-array name="dominant_hand_array">
+        <item >Droitier</item>
+        <item >Gaucher</item>
+    </string-array>
+    <string name="fullscreen_dialog_title">Définir le mode plein écran</string>
+    <string-array name="fullscreen_array">
+        <item >Afficher barres d\'outils et de statut</item>
+        <item >Afficher la barre de statut</item>
+        <item >Afficher seulement la barre d\'outils</item>
+        <item >Ne rien afficher</item>
+    </string-array>
+    <string name="orientation_dialog_title">Rotation</string>
+    <string-array name="orientation_array">
+        <item >Les deux</item>
+        <item >Portrait seulement</item>
+        <item >Paysage seulement</item>
+    </string-array>
+    <string name="here_be_dragons">Zone dangereuse !</string>
+    <string name="delete_temp_files_warning">La suppression des fichiers temporaires peut empêcher les autres applications d\'accéder aux mémos.</string>
+    <string name="move_storage">Déplacer les fichiers</string>
+    <string name="error">Erreur</string>
+    <string name="move_storage_error">L\'emplacement nouvellement défini est le même.</string>
+    <string name="about_dialog_title">À propos de Mémo</string>
+    <string name="about_dialog_info">Version 0.6.2 (beta)\n\nMémo est conçu pour rendre rapide et facile la prise de notes.\n\n© Copyright Nathan Garside 2012</string>
+    <string name="move_completed_title">Le déplacement est terminé.</string>
+    <string name="move_completed_info">Redémarrez l\'application et les widgets pour prendre en compte les modifications.</string>
+    <string name="loading_dialog">Chargement en cours…</string>
+    <string name="saving_dialog">Enregistrement en cours…</string>
+    <string name="up_tooltip">Afficher tous les mémos</string>
+    <string name="pen_tooltip">Stylo</string>
+    <string name="eraser_tooltip">Gomme</string>
+    <string name="image_tooltip">Insérer une image</string>
+    <string name="text_tooltip">Insérer du exte</string>
+    <string name="undo_tooltip">Annuler</string>
+    <string name="redo_tooltip">Refaire</string>
+    <string name="save_tooltip">Enregistrer</string>
+    <string name="share_tooltip">Partager</string>
+    <string name="save_dialog_title">Le document a été modifié.</string>
+    <string name="save_dialog_info">Souhaitez-vous l\'enregistrer ?</string>
+    <string-array name="insert_image_array">
+        <item >Appareil photo</item>
+        <item >Gallerie</item>
+        <item >Carte</item>
+        <item >Page Web</item>
+    </string-array>
+    <string name="insert_image_title">Insérer une image</string>
+    <string name="save_temp_dialog">Enregistrement du fichier temporaire en cours…</string>
+    <string name="up">Haut</string>
+    <string-array name="background_type_array">
+        <item >Vide</item>
+        <item >Grille</item>
+        <item >Cahier</item>
+    </string-array>
+    <string name="license_title">Licence</string>
+    <string name="license_description">Mémo est sous licence GPLv3</string>
+    <string name="pref_input">Saisie</string>
+    <string name="pref_sharing">Partage</string>
+    <string name="pref_system">Système</string>
+    <string name="pref_credits">Crédits</string>
+</resources>
