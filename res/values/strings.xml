@@ -173,4 +173,9 @@
     <string name="license_title">License</string>
     <string name="license_description">Memo is licensed under GPLv3</string>
     <string name="gpl_title">GPLv3</string>
+    <string name="pref_input">Input</string>
+    <string name="pref_interface">Interface</string>
+    <string name="pref_sharing">Sharing</string>
+    <string name="pref_system">System</string>
+    <string name="pref_credits">Credits</string>
 </resources>
